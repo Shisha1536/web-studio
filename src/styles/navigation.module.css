@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.item {
+    text-decoration: none;
+}

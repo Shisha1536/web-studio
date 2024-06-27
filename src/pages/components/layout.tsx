@@ -1,6 +1,7 @@
 import { PropsWithChildren } from "react";
 import Head from "next/head";
 import Navigation from "./navigation";
+import style from "../../styles/layout.module.css";
 
 
 export default function Layout({ children }: PropsWithChildren) {
@@ -14,7 +15,7 @@ export default function Layout({ children }: PropsWithChildren) {
         </Head>
     
         <div>
-        <header>
+        <header className={style.header}>
             <div>Logo</div>
             <Navigation />
         </header>
