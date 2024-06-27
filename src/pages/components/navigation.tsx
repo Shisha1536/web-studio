@@ -5,18 +5,18 @@ export default function Navigation() {
     return (
     <nav>
         <ul className={style.list}>
-            <li className={style.item}>
-                <Link href="/">
+            <li>
+                <Link href="/" className={style.nav}>
                     Главная
                 </Link>
             </li>
-            <li className={style.item}>
-                <Link href="/about">
+            <li>
+                <Link href="/about" className={style.nav}>
                     О компании
                 </Link>
             </li>
-            <li className={style.item}>
-                <Link href="/contacts">
+            <li>
+                <Link href="/contacts" className={style.nav}>
                     Контакты
                 </Link>
             </li>

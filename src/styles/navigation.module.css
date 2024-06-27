@@ -1,9 +1,12 @@
 .list {
     display: flex;
     gap: 20px;
-    text-decoration: none;
     list-style-type: none;
 }
-.item {
+.nav {
     text-decoration: none;
+    color: grey;
+}
+.nav:hover {
+    color: black;
 }
